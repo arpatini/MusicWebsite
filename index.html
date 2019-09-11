@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Music Website</title>
+
+  <!-- Stylesheets -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Livvic|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- As a link -->
+      <nav class="navbar navbar-expand-md">
+        <div class="dropdownMenu">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pages">
+            <i class="fas fa-bars" id="menuIcon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="pages">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link link" href="#Music">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#Videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#Connect">Connect</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+
+        <a href="index.html" class="navbar-brand titleText active">Angela Patini</a>
+      </nav>
+
+      <div class="thumbnail">
+        <img src="images/titlepic.jpeg" class="img-fluid titleImage" alt="Responsive image">
+        <img src="images/mobileTitlepic.jpeg" class="img-fluid mobileTitleImage" alt="Responsive image">
+
+        <div class="announcement">
+          <h1 class="titleText newMusicTitle">Angela Patini</h1>
+          <h2 class="titleText newSingle">Just A Game</h2>
+          <p>Single Out Soon</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="Music">
+    <div class="row">
+      <h3 class="col-1 offset-1 musc">Music</h3>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="false" data-interval="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="jumbotron jumbotron-fluid backgroundMusic">
+            <div class="container">
+              <img src="images/PostcardCover.png" class="img-fluid" alt="Responsive image">
+              <p>Angela Patini</p>
+              <p class="album">Postcard</p>
+            </div>
+            <button type="button" class="btn btn-outline-light" name="button">
+              <a href="PClinks.html">STREAM/DOWNLOAD</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="jumbotron jumbotron-fluid backgroundMusic">
+            <div class="container">
+              <img src="images/HNTOCover.jpg" class="img-fluid" alt="Responsive image">
+              <p>Angela Patini</p>
+              <p class="album">He's Not The One</p>
+              <button type="button" class="btn btn-outline-light" name="button">
+                <a href="HNTOlinks.html">STREAM/DOWNLOAD</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" data-ride="false">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+
+    </div>
+
+  </section>
+
+  <section id="Videos">
+    <div class="row">
+      <h3 class="col-1 offset-1 musc">Videos</h3>
+    </div>
+    <img src="images/ComingSoon.jpeg" alt="">
+    <p>Coming Soon</p>
+
+  </section>
+
+  <section id="Connect">
+    <div class="row">
+      <h3 class="col-1 offset-1 musc">Connect</h3>
+    </div>
+    <img src="images/connect.jpeg" class="img-fluid closingImg" alt="Responsive image">
+    <button type="button" name="button">
+      <a href="https://www.instagram.com/angelapatinimusic/"><i class="fab fa-instagram"></i></a>
+    </button>
+    <button type="button" name="button">
+      <a href="https://www.youtube.com/channel/UCV8Lqs9jSrs0Ok6YTDxJPQg?view_as=subscriber"><i class="fab fa-youtube-square"></i></a>
+    </button>
+    <button type="button" name="button">
+      <a href="mailto:angelapatinimusic@gmail.com"><i class="fas fa-envelope-square"></i></a>
+    </button>
+
+  </section>
+
+</body>
+
+<footer>
+  <nav class="navbar">
+    <span class="navbar-brand mb-0 h1">
+      <p>
+        Built and designed by Angela Patini <br />
+        Photo credit to Philadelphia's Magic Gardens
+      </p>
+    </span>
+  </nav>
+
+</footer>
+
+
+
+</html>

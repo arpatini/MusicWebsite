@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  font-family: 'Livvic', sans-serif;
+}
+
+.container-fluid {
+  width: 320px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+}
+
+.backgroundMusic {
+  position: absolute;
+  z-index: 0;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  overflow: hidden;
+}
+
+.title {
+  padding-top:5px;
+  background-color: black;
+  height: 80px;
+}
+
+p {
+  color: white;
+}
+
+.link {
+    color: #685454;
+    background-color: white;
+    text-align: left;
+    padding:20px;
+    font-size: 1.5rem;
+}
+
+button {
+  float:right;
+}
+
+a {
+  color:black;
+}

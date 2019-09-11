@@ -1,0 +1,199 @@
+body {
+  font-family: 'Livvic', sans-serif;
+  text-align: center;
+  color: #685454;
+  margin: 0 0px 10px;
+  /* margin:0 20px 10px; */
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar a {
+  color: #685454;
+  background: white;
+}
+
+.dropdownMenu {
+  background-color: white;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.titleText {
+  font-size: 3rem;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+#menuIcon {
+  color: #685454;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.link {
+  padding: 15px 10px 0 !important;
+}
+
+/* Title */
+.newMusicTitle {
+  font-size: 6rem;
+}
+
+.newSingle {
+  font-size: 4rem;
+}
+
+@media (min-width: 601px) {
+  .mobileTitleImage {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .titleImage {
+    display: none;
+  }
+}
+
+img {
+  display: block;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.announcement {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  min-width: 300px;
+}
+
+@media (max-width: 800px) {
+  .newMusicTitle {
+    font-size: 4rem;
+  }
+
+  .newSingle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .newMusicTitle {
+    font-size: 5rem;
+  }
+
+  .newSingle {
+    font-size: 3rem;
+  }
+}
+
+/* Music */
+.backgroundMusic {
+  background-image: url("images/bgM.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+#Music {
+  padding: 30px 0 0;
+  /* background-image: url("images/bgMusic.jpeg"); */
+  text-align: center;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#Music img {
+  width: 400px;
+  box-shadow: 0 0 10px 10px black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 20px;
+}
+
+.stream {
+  margin-top: 50px;
+}
+
+#Music p {
+  font-size: 2.5rem;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
+
+.album {
+  bottom: 40px !important;
+}
+
+#Music button {
+  position: relative;
+  bottom: 10px;
+  font-family: 'Livvic', sans-serif;
+}
+
+.carousel-item  a {
+  color:white;
+}
+
+/* Videos */
+
+#Videos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 300px;
+}
+
+/* Connect */
+
+#Connect button {
+  border:none;
+}
+
+button a {
+  border:none;
+  color: #685454;
+}
+
+
+/* Footer */
+
+footer {
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
