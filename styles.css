@@ -2,8 +2,8 @@ body {
   font-family: 'Livvic', sans-serif;
   text-align: center;
   color: #685454;
-  margin: 0 0px 10px;
-  /* margin:0 20px 10px; */
+  /* margin: 0 0px 10px; */
+  margin:0 20px 10px;
 }
 
 h3 {
@@ -192,6 +192,7 @@ img {
 
 #Connect button {
   border:none;
+  font-size: 1.5rem;
 }
 
 button a {
