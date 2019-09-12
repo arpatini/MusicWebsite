@@ -190,14 +190,11 @@ img {
   padding: 30px 0 0;
 }
 
-#Connect button {
+#Connect a {
   border:none;
-  font-size: 2rem;
-}
-
-button a {
-  border:none;
+  font-size: 1.5rem;
   color: #685454;
+  margin:0 3px;
 }
 
 
