@@ -17,6 +17,7 @@ h3 {
 }
 
 /* NAVBAR */
+
 .navbar {
   height: 70px;
   width: 100%;
@@ -119,7 +120,7 @@ img {
 
 /* Music */
 .backgroundMusic {
-  background-image: url("images/bgM.jpeg");
+  background-image: url("images/background-albums.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
@@ -127,7 +128,6 @@ img {
 
 #Music {
   padding: 30px 0 0;
-  /* background-image: url("images/bgMusic.jpeg"); */
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ img {
 
 #Music p {
   font-size: 2.5rem;
-  color: white;
+  color: black;
   position: relative;
   bottom: 20px;
 }
@@ -172,9 +172,17 @@ img {
 
 /* Videos */
 
+.backgroundVideos {
+  background-image: url("images/background-videos.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
 #Videos {
   padding: 30px 0 0;
 }
+
 
 #Videos img {
   display: block;
