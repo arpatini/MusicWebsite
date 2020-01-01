@@ -173,7 +173,7 @@ img {
 /* Videos */
 
 .iframe-container {
-  margin: 30px 80px;
+  margin: 30px 90px;
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
@@ -195,10 +195,10 @@ img {
 
 .prevAndNextButtons {
   position:absolute;
-  top:50%;
+  top:40%;
   height:50px;
   width:50px;
-  margin:0 40px;
+  margin:0 30px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
