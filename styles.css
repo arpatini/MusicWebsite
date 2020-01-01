@@ -172,15 +172,42 @@ img {
 
 /* Videos */
 
-.backgroundVideos {
-  background-image: url("images/background-videos.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
+.iframe-container {
+  margin: 30px 100px;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container {
+  padding-top: 45%;
+}
+
+.prevAndNextButtons {
+  position:absolute;
+  top:50%;
+  height:50px;
+  width:50px;
+  margin:0 40px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
 }
 
 #Videos {
   padding: 30px 0 0;
+  position:relative;
 }
 
 
